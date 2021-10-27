@@ -3,7 +3,6 @@ class Gwhere < Formula
   desc "Command line tool for finding a GCS bucket's host project"
   homepage "https://github.com/samwheating/gwhere"
   version "0.0.5"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/SamWheating/gwhere/releases/download/v0.0.5/gwhere_0.0.5_darwin_x86_64.tar.gz"
